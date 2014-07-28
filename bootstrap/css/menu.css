@@ -1,0 +1,449 @@
+
+
+
+.margin-left-right {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.btn_ajout {
+	margin-right: 10px;
+	width: 50px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20	px;
+	text-align: center;
+}
+
+.fond{
+	background: #DDD;
+}
+
+.first_content{
+	border: solid gray 1px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width: 70%;
+	height: 95%;
+	background: white;
+	margin-left: 15%;
+	margin-top: 10px;
+	-moz-box-shadow: -10px 10px 30px 6px #656565;
+	-webkit-box-shadow: -10px 10px 30px 6px #656565;
+		-o-box-shadow: -10px 10px 30px 6px #656565;
+	box-shadow: -10px 10px 30px 6px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=224, Strength=30);
+}
+
+.entete {
+	margin-top: 2%;
+	margin-left: 4%;
+}
+
+.separator {
+	border-top: solid black 1px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: auto;
+	display: block;
+}
+
+.form-signin {
+	max-width: 400px;
+	padding: 19px 29px 29px;
+	margin: 0 auto 30px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	
+	-moz-box-shadow: -5px 5px 10px 0px #656565;
+	-webkit-box-shadow: -5px 5px 10px 0px #656565;
+	-o-box-shadow: -5px 5px 10px 0px #656565;
+	box-shadow: -5px 5px 10px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=224, Strength=10);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.no_cmpt {
+	float: left;
+	margin-left: 5%;
+	width: 40%;
+}
+
+.forgot_mdp {
+	margin-left: 55%;
+	width: 40%;
+}
+
+.message {
+	vertical-align: center;
+}
+
+.conteneur_message {
+	padding-top: 1.5%;
+	margin: 10%;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/* ========================= PAGE INSCRIPTION ============================= */
+/* ======================================================================== */
+
+.sous_div {
+	margin-top:3%;
+	padding: 2%;
+	border: solid gray 1px;
+	
+	-moz-box-shadow: -3px 3px 5px 0px #656565;
+	-webkit-box-shadow: -3px 3px 5px 0px #656565;
+	-o-box-shadow: -3px 3px 5px 0px #656565;
+	box-shadow: -3px 3px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=225, Strength=5);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.sous_div button{
+	margin-left: 45%;
+}
+
+.head_subMenu {
+	height: 20px;
+	background: black;
+	margin-left: -1.8%;
+	margin-right: -1.8%;
+	margin-top: -4%;
+	margin-bottom:2%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 0px 5px 5px 0px #656565;
+	-webkit-box-shadow: 0px 5px 5px 0px #656565;
+	-o-box-shadow: 0px 5px 5px 0px #656565;
+	box-shadow: 0px 5px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+}
+
+.head_subMenu h5 {
+	margin-left: 3%;
+	color: white;
+	font-style : italic;
+}
+
+/* ======================= PARTIE MENU ( HORS LIGNE ) ===================== */ 
+/* ======================================================================== */
+
+.contentPanel {
+	margin: auto;
+}
+
+.contentLeft {
+	float: left;
+	width: 10 %;
+}
+
+.contentRight  {
+	float: left;
+}
+
+/* Pour le systeme de notation : */
+
+ul.notes-echelle {
+	margin:0;
+	padding:0;
+	font:.75em/1.2 Arial, Helvetica, sans-serif;
+}
+
+ul.notes-echelle li {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+	min-width:20px;
+	min-height:20px;
+}
+
+/* ================== BIBLIOTHEQUE PRIVE ================================== */
+/* ======================================================================== */
+	/* =========== Contenu page : ============== */
+	
+	#ListMenu {
+		margin-top: 4%;
+		height: 100%;
+		
+		
+		/* ==== Fond ====== */
+		background: rgb(69,72,77); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+		
+		/* ==== ombre et coin arrondi ========= */
+		-moz-box-shadow: -5px 5px 5px 0px #656565;
+		-webkit-box-shadow: -5px 5px 5px 0px #656565;
+		-o-box-shadow: -5px 5px 5px 0px #656565;
+		box-shadow: -5px 5px 5px 0px #656565;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=224, Strength=5);
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
+	
+	/* =========================== PAGE GESTION DE COMPTE ======================================= */
+	.table-gestion {
+		margin:1%;
+		margin-top:4%;
+		width:98%;
+	}
+	
+	.table-gestion td {
+		width:49%;
+		margin-right:1%;
+	}
+	
+	#BottomButton {
+		background-color: #EDEDED;
+		margin-top: 2%;
+		width: 92%;
+		float: left;
+		padding:2%;
+		margin-left: 2%;
+		
+		-moz-box-shadow: -5px 5px 10px 0px #656565;
+		-webkit-box-shadow: -5px 5px 10px 0px #656565;
+		-o-box-shadow: -5px 5px 10px 0px #656565;
+		box-shadow: -5px 5px 10px 0px #656565;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=224, Strength=10);
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+	}
+	
+	#DivEmail {
+		border: solid black 1px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		text-align: center;
+		margin-bottom:2%;
+	}
+	 
+	#DivEmail label {
+		font-weight:normal;
+	}
+	
+	#SuppCompte {
+		margin-top:1%;
+	}
+	
+	#compte_info label {
+		font-style:italic;
+		font-weight:bold;
+	}
+	
+	/* ===================================================================================== */
+	
+	
+	
+	
+	
+	/* ====================== ENTETE TABLE RECHERCHE BIBLIOTHEQUE PRIVE ==================== */
+	#table_Conteneur {
+		width:98%;
+		margin:1%;
+	}
+	
+	#table_Conteneur .first {
+		width:15%;
+	}	
+	
+	#EnteteAssociation select {
+		margin-bottom: -1%;
+	}
+	
+	#EnteteCheck {
+		margin-top:50%;
+		padding-left: 4.5%;
+	}
+	
+	#HeaderOptions {
+		margin-left: 2%;
+		text-align: left;
+	}
+	
+	#ContentInfo {
+		margin-top: 1%;
+		margin-left: 1%;
+		margin-bottom: 1%;
+		padding: 1%;
+		width: 96%;
+		border: solid black 1px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	
+	/* ===================================================================================== */
+
+	
+	
+	
+	
+	
+	/* ====================== NOUS CONTACTER =============================================== */
+		.table-contact {
+			margin:1%;
+			width:98%;
+		}
+		
+		.table-contact .first {
+			width:25%;
+		}
+		
+		.bottom-right {
+			width:98%;
+			margin:1%;
+			text-align:right;
+		}
+		
+	/* ===================================================================================== */
+
+	
+	
+	
+	
+	
+	/* =================== PARTIE GESTION DES ENTETES ====================================== */
+	
+		.EntetePrincipal {
+			padding:2%;
+			padding-top:1.5%;
+			
+			/* Pour le dégradé : */
+			background: #0d7bec; /* Old browsers */
+			background: -moz-linear-gradient(top, #0d7bec 47%, #ffffff 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(47%,#0d7bec), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #0d7bec 47%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #0d7bec 47%,#ffffff 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #0d7bec 47%,#ffffff 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #0d7bec 47%,#ffffff 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d7bec', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */		
+		}
+		
+		.EntetePrincipal h1{
+			color: white;
+			font-style : italic;
+			margin-top:-0.5%;
+		}
+
+	
+	/* ===================================================================================== */ 
+
+	/* =================== POSITION DU TABLEAU CENTRALE ==================================== */
+		.table_position {
+			width:98%;
+			margin:1%;
+		}
+	/* ===================================================================================== */
+
+
+
+	/* ================================ PARTIE MOSAIQUE ==================================== */ 
+	
+	#table_Mosaique {
+		width:96%;
+		margin:1%;
+		padding:1%;
+	}
+	
+	.border_simple {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		border: solid black 1px;
+		margin:2.5%;
+		padding:2.5%;
+	}
+	
+	.border_simple li {
+		margin-top:2%;
+	}
+	/* ===================================================================================== */
+
+	/* ============================= OUTILS COMMUN AUX PAGES =============================== */
+	
+	.margin {
+		width: 98%;
+		margin: 1%;
+	}
+	
+	.margin-left {
+		margin-left: 3%;
+	}
+	
+	.padding {
+		padding: 1%;
+	}
+	
+	.transparent {
+	background:transparent;
+	}
+	
+	
+	.title_site {
+		display: block;
+		float: left;
+		padding: 10px 20px 10px;
+		margin-left: -20px;
+		font-size: 20px;
+		font-weight: 200;
+		line-height: 20px;
+		cursor: auto;
+		text-decoration: none;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		color: #5cb85c;
+	}
+	
+	.title_site:hover {
+		display: block;
+		float: left;
+		padding: 10px 20px 10px;
+		margin-left: -20px;
+		font-size: 20px;
+		font-weight: 200;
+		line-height: 20px;
+		cursor: auto;
+		text-decoration: none;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		color: #41A7C5;
+	}
+	/* ===================================================================================== */
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

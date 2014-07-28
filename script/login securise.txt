@@ -1,0 +1,3 @@
+_ md5 avec grain de sel
+_ mdp robuste
+_ 3 echecs => bloquer IP
